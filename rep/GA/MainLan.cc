@@ -47,7 +47,7 @@ int main (int argc, char** argv)
 	  	if(!fexit) show_message(13);
 	  	fexit << solver.userstatistics();
 
-		cout << endl << endl << " :( ---------------------- THE END --------------- :) " << endl;
+		cout << endl << endl << "---------------------- END ----------------------" << endl;
 	}
 	return(0);
 }

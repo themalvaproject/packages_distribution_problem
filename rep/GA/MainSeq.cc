@@ -30,11 +30,11 @@ int main (int argc, char** argv)
 		solver.show_state();
 		cout << "Solution: " << solver.global_best_solution()
 		     << " Fitness: " << solver.global_best_solution().fitness() << endl;
-		cout << "\n\n :( ---------------------- THE END --------------- :) ";
+		cout << endl << endl << "---------------------- END ----------------------";
 
 		ofstream fexit(argv[3]);
 		if(!fexit) show_message(13);
-		fexit << solver.userstatistics();
+		fexit << solver.uservstatistics();
 
 	}
 	return(0);
